@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="EmbeddedMvcContext-Web.config Connection String" description="EmbeddedMvcContext Parametry połączenia używane w pliku web.config przez aplikację w celu uzyskiwania dostępu do bazy danych." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=EmbeddedMvcContext-20220717021657; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|EmbeddedMvcContext-20220717021657.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Łukasz\\source\\repos\\Schowek_Firmowy\\EmbeddedMvc\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EmbeddedMvcContext']/@connectionString" />
+  </parameter>
+</parameters>
